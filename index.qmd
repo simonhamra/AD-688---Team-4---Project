@@ -1,7 +1,11 @@
 ---
-title: "AD-688---Team-4---Project"
+title: "Data Science & Business Analytics Trends in 2024"
 ---
 
-This is a Quarto website.
+## Introduction
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+(Your intro here)
+
+## Research Rationale
+
+(2 paragraphs on why this topic matters)

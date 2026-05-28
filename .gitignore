@@ -1,0 +1,7 @@
+_site/
+.quarto/
+
+data/*.csv
+
+/.quarto/
+**/*.quarto_ipynb

@@ -1,0 +1,11 @@
+---
+title: "Data Analysis"
+---
+
+## Data Overview
+
+```{python}
+import pandas as pd
+df = pd.read_csv('data/lightcast_job_postings.csv')
+df.shape
+```

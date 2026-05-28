@@ -1,16 +1,37 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "analysis.html",
+    "href": "analysis.html",
+    "title": "Data Analysis",
     "section": "",
-    "text": "About this site"
+    "text": "import pandas as pd\ndf = pd.read_csv('data/lightcast_job_postings.csv')\ndf.shape\n\n/var/folders/qh/qvb728mj5sv9rp88qh40d1z00000gn/T/ipykernel_76390/3026031294.py:2: DtypeWarning: Columns (19,30) have mixed types. Specify dtype option on import or set low_memory=False.\n  df = pd.read_csv('data/lightcast_job_postings.csv')\n\n\n(72498, 131)"
+  },
+  {
+    "objectID": "analysis.html#data-overview",
+    "href": "analysis.html#data-overview",
+    "title": "Data Analysis",
+    "section": "",
+    "text": "import pandas as pd\ndf = pd.read_csv('data/lightcast_job_postings.csv')\ndf.shape\n\n/var/folders/qh/qvb728mj5sv9rp88qh40d1z00000gn/T/ipykernel_76390/3026031294.py:2: DtypeWarning: Columns (19,30) have mixed types. Specify dtype option on import or set low_memory=False.\n  df = pd.read_csv('data/lightcast_job_postings.csv')\n\n\n(72498, 131)"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "AD-688—Team-4—Project",
+    "title": "Data Science & Business Analytics Trends in 2024",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "(Your intro here)"
+  },
+  {
+    "objectID": "index.html#introduction",
+    "href": "index.html#introduction",
+    "title": "Data Science & Business Analytics Trends in 2024",
+    "section": "",
+    "text": "(Your intro here)"
+  },
+  {
+    "objectID": "index.html#research-rationale",
+    "href": "index.html#research-rationale",
+    "title": "Data Science & Business Analytics Trends in 2024",
+    "section": "Research Rationale",
+    "text": "Research Rationale\n(2 paragraphs on why this topic matters)"
   }
 ]
