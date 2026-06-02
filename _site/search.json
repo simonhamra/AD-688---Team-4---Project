@@ -4,14 +4,14 @@
     "href": "analysis.html",
     "title": "Data Analysis",
     "section": "",
-    "text": "import pandas as pd\ndf = pd.read_csv('data/lightcast_job_postings.csv')\ndf.shape\n\n/var/folders/qh/qvb728mj5sv9rp88qh40d1z00000gn/T/ipykernel_76390/3026031294.py:2: DtypeWarning: Columns (19,30) have mixed types. Specify dtype option on import or set low_memory=False.\n  df = pd.read_csv('data/lightcast_job_postings.csv')\n\n\n(72498, 131)"
+    "text": "import os\nimport pandas as pd\nfrom pandas.errors import EmptyDataError\n\npath = 'data/lightcast_job_postings.csv'\nif os.path.exists(path) and os.path.getsize(path) &gt; 0:\n    try:\n        df = pd.read_csv(path)\n        print(df.shape)\n    except EmptyDataError:\n        print(f\"The file '{path}' exists but contains no data.\")\nelse:\n    print(f\"The file '{path}' is missing or empty. Please add valid CSV data before publishing.\")\n\n/var/folders/qh/qvb728mj5sv9rp88qh40d1z00000gn/T/ipykernel_32542/283340311.py:8: DtypeWarning: Columns (19,30) have mixed types. Specify dtype option on import or set low_memory=False.\n  df = pd.read_csv(path)\n\n\n(72498, 131)"
   },
   {
     "objectID": "analysis.html#data-overview",
     "href": "analysis.html#data-overview",
     "title": "Data Analysis",
     "section": "",
-    "text": "import pandas as pd\ndf = pd.read_csv('data/lightcast_job_postings.csv')\ndf.shape\n\n/var/folders/qh/qvb728mj5sv9rp88qh40d1z00000gn/T/ipykernel_76390/3026031294.py:2: DtypeWarning: Columns (19,30) have mixed types. Specify dtype option on import or set low_memory=False.\n  df = pd.read_csv('data/lightcast_job_postings.csv')\n\n\n(72498, 131)"
+    "text": "import os\nimport pandas as pd\nfrom pandas.errors import EmptyDataError\n\npath = 'data/lightcast_job_postings.csv'\nif os.path.exists(path) and os.path.getsize(path) &gt; 0:\n    try:\n        df = pd.read_csv(path)\n        print(df.shape)\n    except EmptyDataError:\n        print(f\"The file '{path}' exists but contains no data.\")\nelse:\n    print(f\"The file '{path}' is missing or empty. Please add valid CSV data before publishing.\")\n\n/var/folders/qh/qvb728mj5sv9rp88qh40d1z00000gn/T/ipykernel_32542/283340311.py:8: DtypeWarning: Columns (19,30) have mixed types. Specify dtype option on import or set low_memory=False.\n  df = pd.read_csv(path)\n\n\n(72498, 131)"
   },
   {
     "objectID": "index.html",
@@ -33,5 +33,19 @@
     "title": "Data Science & Business Analytics Trends in 2024",
     "section": "Research Rationale",
     "text": "Research Rationale\n(2 paragraphs on why this topic matters)"
+  },
+  {
+    "objectID": "career_plan.html",
+    "href": "career_plan.html",
+    "title": "Career Strategy",
+    "section": "",
+    "text": "(Each team member’s 3-step plan goes here)"
+  },
+  {
+    "objectID": "career_plan.html#career-action-plans",
+    "href": "career_plan.html#career-action-plans",
+    "title": "Career Strategy",
+    "section": "",
+    "text": "(Each team member’s 3-step plan goes here)"
   }
 ]
