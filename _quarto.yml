@@ -9,6 +9,8 @@ website:
         text: Home
       - href: analysis.qmd
         text: Analysis
+      - href: data_analysis.qmd
+        text: Data Cleaning
       - href: career_plan.qmd
         text: Career Strategy
 
