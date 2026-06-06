@@ -19,6 +19,8 @@ website:
         text: "Exploratory Analysis"
       - href: career_plan.qmd
         text: "Career Strategy"
+      -href: skill_gap_analysis.qmd
+        text: "Skill Gap Analysis"
 
 format:
   html:
