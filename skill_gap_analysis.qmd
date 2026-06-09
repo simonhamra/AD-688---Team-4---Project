@@ -4,9 +4,11 @@ format:
     html:
         toc: true
 ---
-## Creating a Skill Level DataFram
+## Creating a Skill Level DataFrame
 ```{python}
 import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 skills_data = {
     "Name": ["Meera", "Simon", "Mia", "Keily"],
@@ -19,5 +21,12 @@ skills_data = {
 df_skills = pd.DataFrame(skills_data)
 df_skills.set_index("Name", inplace=True)
 print(df_skills)
+
+
+# Heat map of skill level data frame
+plt.figure(figsize=(8, 6))
+sns.heatmap(df_skills, annot=True, cmap="coolwarm", linewidths=0.5)
+plt.title("Team Skill Levels Heatmap")
+plt.show()
 ```
 
