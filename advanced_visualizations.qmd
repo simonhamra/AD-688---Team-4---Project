@@ -1,0 +1,47 @@
+---
+title: "Advanced Visualizations"
+format: html
+---
+## Visualization Theme
+
+All advanced visualizations on this page are built using Plotly and are based on the cleaned Lightcast 2024 job postings dataset (72,477 records). Charts are embedded using full-width display and standardized dimensions to maintain visual consistency. These visualizations go beyond exploratory analysis to uncover deeper patterns in skill demand trends, industry hiring behavior, and the flow of roles and skills across sectors.
+
+## Top 10 Skills Ranked by Month (2024) - Bump Chart
+
+Tracks how the ranking of the top 10 in-demand skills shifted across May–September 2024.
+
+```{=html}
+<iframe src="figures/bump_chart_skills.html" width="100%" height="650px" frameborder="0"></iframe>
+```
+
+## In-Demand Skills by Job Title and Industry - Treemap
+
+Shows the distribution of skills nested within job titles and industries. Block size represents number of postings.
+
+```{=html}
+<iframe src="figures/treemap_skills.html" width="100%" height="750px" frameborder="0"></iframe>
+```
+
+## Skills Landscape by Industry (Interactive) - Treemap
+
+**How to Use:** Use the dropdown menu at the top left to select an industry. The treemap will update to show only the job titles and skills relevant to that sector.
+
+```{=html}
+<iframe src="figures/treemap_skills_interactive.html" width="100%" height="750px" frameborder="0"></iframe>
+```
+
+## Industry → Job Title → Skills Flow - Sankey
+
+**How to Read:** Left (blue) = Industries, Middle (red) = Job Titles, Right (green) = Skills. Band width represents number of job postings.
+
+```{=html}
+<iframe src="figures/sankey_skills.html" width="100%" height="650px" frameborder="0"></iframe>
+```
+
+## Job Title Demand by Industry - Heatmap
+
+Shows the number of job postings per job title across industries. Darker cells indicate higher demand.
+
+```{=html}
+<iframe src="figures/heatmap_titles.html" width="100%" height="550px" frameborder="0"></iframe>
+```

@@ -13,6 +13,8 @@ website:
         text: Exploratory Analysis
       - href: skill_gap_analysis.qmd
         text: Skill Gap Analysis
+      - href: advanced_visualizations.qmd
+        text: Advanced Visualizations
 
 format:
   html:
