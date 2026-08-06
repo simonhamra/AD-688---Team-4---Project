@@ -1,1 +1,1 @@
-Sitemap: https://simonhamra.github.io/AD-688---Team-4---Project/sitemap.xml
+Sitemap: https://simonhamra.github.io/data-science-job-market-2024/sitemap.xml
